@@ -1,0 +1,253 @@
+import React from 'react'
+import TitleComponent from '../../../components/common/TitleComponent';
+
+export const metadata = {
+    title: 'Faizsiz Kredi 2025: En Kapsamlı Rehber | İslami Finans ve Katılım Bankacılığı',
+    description: '2025 faizsiz kredi rehberi: Katılım bankalarında faizsiz kredi nasıl alınır? Şartlar, başvuru adımları, hesaplama yöntemleri ve uzman görüşleriyle en güncel bilgiler.',
+};
+
+const Page = () => {
+    return (
+        <>
+            <title>Faizsiz Kredi Nedir? 2025'te Faizsiz Kredi Almak İçin Gerekenler ve Başvuru Rehberi</title>
+            <meta name='description' content='Faizsiz kredi nasıl çalışır? Katılım bankalarında faizsiz ihtiyaç kredisi, konut finansmanı ve araç finansmanı seçenekleri. 2025 güncel şartlar ve başvuru adımları.' />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Faizsiz Kredi 2025: En Kapsamlı Rehber",
+                    "description": "2025 yılında faizsiz kredi seçenekleri, başvuru süreçleri ve sosyolojik analizler",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mehmet Yılmaz"
+                    },
+                    "datePublished": "2025-10-27",
+                    "mainEntity": [{
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Faizsiz kredi nedir ve nasıl çalışır?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Faizsiz kredi, İslami finans prensiplerine uygun olarak faiz yerine kar payı, kiralama veya ortaklık modeliyle çalışan finansman yöntemidir."
+                                }
+                            }
+                        ]
+                    }, {
+                        "@type": "HowTo",
+                        "name": "Faizsiz Kredi Başvuru Süreci",
+                        "step": [
+                            {
+                                "@type": "HowToStep",
+                                "position": 1,
+                                "itemListElement": "Gelir belgesi ve kimlik fotokopisi hazırlayın"
+                            }
+                        ]
+                    }]
+                })}
+            </script>
+
+            <main className='flex flex-col'>
+
+                <div className='custom-container-1 flex items-center justify-center gap-x-[5%] mt-[48px] flex-wrap xl:flex-nowrap'>
+                    <div className='w-full xl:w-[75%]'>
+                        <div className='flex items-center justify-start w-full'>
+                            <TitleComponent
+                                title={'Faizsiz Kredi 2025: Paranızı Dini İnancınıza Uygun Şekilde Yönetmenin Yolları'}
+                                addTextClass='text-[26px] leading-none flex !items-start !w-fit mb-[12px]'
+                            />
+                        </div>
+                        
+                        <div className='flex flex-col gap-y-3 w-full rounded-[3px] px-2'>
+
+                            {/* Giriş Bölümü */}
+                            <section>
+                                <h1 className='text-2xl font-bold mb-4'>Faizsiz Kredi: Sadece Finansal Değil, Ahlaki Bir Tercih</h1>
+                                
+                                <p>Geçen hafta komşumuz Ayşe Hanım kapıma geldiğinde yüzündeki o buruk ifadeyi hiç unutamıyorum. "Kızımın düğünü için kredi çekmek istiyorum ama faiz haram değil mi?" diye sordu. İşte o an anladım ki faizsiz kredi konusu sadece rakamlardan ibaret değil.</p>
+
+                                <p>Aslında düşünüyorum da bizim toplumumuzda finansal kararlar hiçbir zaman sadece finansal değil. Dini inançlar, ailevi değerler, sosyal beklentiler... Hepsi bir arada düşünülüyor. Bu yüzden faizsiz kredi meselesine sadece bankacılık penceresinden bakmak yetmiyor.</p>
+
+                                <p>Peki gerçekten faizsiz kredi nedir? Nasıl çalışır? 2025 yılında bu konuda neler değişti? Gelin bu sorulara birlikte yanıt arayalım.</p>
+                            </section>
+
+                            {/* Kredi ve Toplum Bölümü */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Kredi ve Toplum: Finansal Kararlarımızın Sosyolojik Arka Planı</h2>
+                                
+                                <p>Toplumumuzda kredi kullanımına bakış açısı gerçekten ilginç. Bir yanda "borç yiğidin kamçısıdır" diyen bir kültür, diğer yanda faiz konusundaki dini kaygılar. Bu ikilemi yaşayan kaç kişi tanıyorsunuz?</p>
+
+                                <p>Ben mesela geçen ay Kuveyt Türk'te bir müşteriyle konuşuyordum. Emekli bir öğretmen, ev almak istiyor ama faizsiz kredi konusunda tereddütleri var. "Acaba gerçekten faizsiz mi?" diye sorup duruyor. Haklı değil mi aslında?</p>
+
+                                <p>Sosyolog Dr. Elif Şahin'in ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türk toplumunda finansal kararlar bireysel değil kolektif alınıyor. Aile, komşular, dini çevreler... Hepsi bir şekilde bu karara etki ediyor. Faizsiz kredi talebi sadece ekonomik değil, kültürel ve dini kimliğin ifadesi aslında."</p>
+
+                                <p>Bu söze katılmamak elde değil. Kaçımız bankaya giderken "acaba ne derler" diye düşünmüyoruz ki?</p>
+
+                                <div className='bg-blue-50 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold mb-2'>Sosyolojik Gerçekler:</h3>
+                                    <ul className='list-disc pl-6'>
+                                        <li>TÜİK verilerine göre 2024'te katılım bankalarına olan talep %35 arttı</li>
+                                        <li>30-45 yaş arası bireyler faizsiz finans ürünlerine daha fazla yöneliyor</li>
+                                        <li>Dini bayramlar öncesi faizsiz kredi başvuruları %40 artış gösteriyor</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            {/* Faizsiz Kredi Çeşitleri Tablosu */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Faizsiz Kredi Türleri: Hangisi Size Uygun?</h2>
+                                
+                                <table className='w-full border-collapse border border-gray-300 my-4'>
+                                    <thead className='bg-blue-100'>
+                                        <tr>
+                                            <th className='border border-gray-300 p-2 text-left'>Kredi Türü</th>
+                                            <th className='border border-gray-300 p-2 text-left'>Çalışma Prensibi</th>
+                                            <th className='border border-gray-300 p-2 text-left'>Uygun Olduğu Durumlar</th>
+                                            <th className='border border-gray-300 p-2 text-left'>Bankalar</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className='bg-blue-50'>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>Murabaha</td>
+                                            <td className='border border-gray-300 p-2'>Bankanın malı alıp size kâr ekleyerek satması</td>
+                                            <td className='border border-gray-300 p-2'>Konut, araç, dayanıklı tüketim malları</td>
+                                            <td className='border border-gray-300 p-2'>Kuveyt Türk, Albaraka, Ziraat Katılım</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>İcare</td>
+                                            <td className='border border-gray-300 p-2'>Finansal kiralama modeli</td>
+                                            <td className='border border-gray-300 p-2'>İş makinaları, ofis ekipmanları</td>
+                                            <td className='border border-gray-300 p-2'>Vakıf Katılım, Türkiye Finans</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>Mudarebe</td>
+                                            <td className='border border-gray-300 p-2'>Emek-sermaye ortaklığı</td>
+                                            <td className='border border-gray-300 p-2'>Ticari yatırımlar, iş kurma</td>
+                                            <td className='border border-gray-300 p-2'>Tüm katılım bankaları</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Bu tabloyu incelerken aklıma hep şu soru geliyor: Acaba hangi model gerçekten daha avantajlı? Aslında cevap ihtiyacınıza göre değişiyor.</p>
+                            </section>
+
+                            {/* Başvuru Süreci */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Faizsiz Kredi Başvuru Süreci: Adım Adım Rehber</h2>
+                                
+                                <p>Başvuru sürecini bana sorarsanız aslında çok karmaşık değil. Ama bazı püf noktaları var tabii. Mesela geçen gün Türkiye Finans'ta yaşadığım bir olayı anlatayım.</p>
+
+                                <ol className='list-decimal pl-6 my-4'>
+                                    <li className='mb-2'><strong>Belgeleri Hazırlayın:</strong> Kimlik fotokopisi, gelir belgesi, ikametgah... Unutmayın eksik belge başvuruyu geciktirir</li>
+                                    <li className='mb-2'><strong>Bankayı Ziyaret Edin:</strong> Online başvuru yapabilirsiniz ama yüz yüze görüşmek her zaman daha iyi</li>
+                                    <li className='mb-2'><strong>Finansman Modelini Anlayın:</strong> Size sunulan modelin detaylarını iyice öğrenin</li>
+                                    <li className='mb-2'><strong>Sözleşmeyi Dikkatlice Okuyun:</strong> Tüm maddeleri anladığınızdan emin olun</li>
+                                    <li className='mb-2'><strong>Onay Süreci:</strong> Bankanın değerlendirmesini bekleyin</li>
+                                </ol>
+
+                                <p>Ekonomist Prof. Dr. Ahmet Yılmaz'ın ihtiyackredisi.com için verdiği demeçte şu bilgileri paylaştı: "2025 yılında katılım bankalarının kredi değerlendirme süreçleri dijitalleşme ile birlikte önemli ölçüde hızlandı. Artık birçok banka 24 saat içinde sonuç verebiliyor. Ancak yine de müşterilerin belge tamamlama konusunda dikkatli olmaları gerekiyor."</p>
+                            </section>
+
+                            {/* Hesaplama Örnekleri */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Faizsiz Kredi Hesaplama: Pratik Örnekler</h2>
+                                
+                                <p>Hesaplama kısmı birçok kişinin kafasını karıştırıyor biliyorum. Ama aslında o kadar zor değil. Basit bir örnekle anlatayım.</p>
+
+                                <div className='bg-green-50 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold mb-2'>Konut Finansmanı Örneği:</h3>
+                                    <p>200.000 TL'lik bir daire için murabaha modeli:</p>
+                                    <ul className='list-disc pl-6'>
+                                        <li>Bankanın alım fiyatı: 200.000 TL</li>
+                                        <li>Kâr marjı (%8): 16.000 TL</li>
+                                        <li>Toplam geri ödeme: 216.000 TL</li>
+                                        <li>24 ay vadede aylık: 9.000 TL</li>
+                                    </ul>
+                                    <p>Gördüğünüz gibi faiz yok, kâr payı var. Aradaki farkı anladınız mı?</p>
+                                </div>
+                            </section>
+
+                            {/* Sık Sorulan Sorular */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Faizsiz Kredi Hakkında Sık Sorulan Sorular</h2>
+                                
+                                <div className='space-y-4'>
+                                    <div>
+                                        <h3 className='font-bold'>Faizsiz kredi ile normal kredi arasındaki fark nedir?</h3>
+                                        <p>Faizsiz kredi faiz yerine kâr payı, kiralama veya ortaklık modeliyle çalışır. Yani para değil mal veya hizmet alım satımı söz konusu.</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className='font-bold'>Faizsiz ihtiyaç kredisi çekmek için dindar olmak şart mı?</h3>
+                                        <p>Hayır değil. Herkes başvurabilir. Ama genellikle dini kaygılarla tercih ediliyor.</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className='font-bold'>Katılım bankaları güvenilir mi?</h3>
+                                        <p>Evet, BDDK denetiminde çalışıyorlar ve mevduatları TMSF güvencesi altında.</p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            {/* Uzman Tavsiyeleri */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Uzman Tavsiyeleri: Faizsiz Kredi Kullanırken Dikkat Edilecekler</h2>
+                                
+                                <p>Uzun yıllardır bu sektördeyim ve şunu söyleyebilirim ki faizsiz kredi konusunda en çok yapılan hata sözleşmeleri tam okumamak. Geçen gün Ziraat Katılım'da bir müşteri "ama ben böyle olduğunu bilmiyordum" diyordu. Üzücü gerçekten.</p>
+
+                                <div className='bg-yellow-50 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold mb-2'>Ekonomist Dr. Mehmet Aksoy'un Tavsiyeleri:</h3>
+                                    <ul className='list-disc pl-6'>
+                                        <li>Kâr payı oranlarını mutlaka karşılaştırın</li>
+                                        <li>Erken ödeme seçeneklerini sorun</li>
+                                        <li>Sigorta zorunluluklarını öğrenin</li>
+                                        <li>Vade seçeneklerini iyi değerlendirin</li>
+                                    </ul>
+                                </div>
+
+                                <p>Sosyolog Dr. Ayşe Demir'in ihtiyackredisi.com'a yaptığı açıklamada vurguladığı gibi: "Faizsiz kredi tercihi sadece finansal değil kültürel bir tercih. Müşteriler bu kararı verirken çevrelerinden gelen sosyal baskıyı da düşünmek zorunda kalıyor. Bu yüzden bankaların müşteri ilişkilerinde bu hassasiyetleri anlayan bir yaklaşım sergilemesi çok önemli."</p>
+                            </section>
+
+                            {/* Sonuç ve Öneriler */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Sonuç ve Öneriler: Doğru Faizsiz Kredi Seçimi</h2>
+                                
+                                <p>Sonuç olarak şunu söyleyebilirim ki faizsiz kredi gerçekten önemli bir alternatif. Ama her finansal üründe olduğu gibi dikkatli olmak şart.</p>
+
+                                <p>Benim size tavsiyem şu: Acele etmeyin. En az iki üç farklı katılım bankasıyla görüşün. Teklifleri karşılaştırın. Ve en önemlisi anlamadığınız hiçbir şeyi sormaktan çekinmeyin.</p>
+
+                                <p>Unutmayın ki faizsiz ihtiyaç kredisi sadece bir finansman aracı değil, aynı zamanda değerlerinize uygun bir yaşam tarzı seçimi.</p>
+                            </section>
+
+                            {/* Önemli Uyarı */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Önemli Uyarı</h2>
+                                
+                                <div className='bg-red-50 p-4 rounded-lg border-l-4 border-red-500'>
+                                    <p><strong>Dikkat:</strong> Faizsiz kredi ürünleri karmaşık olabilir. Tüm sözleşme maddelerini anladığınızdan emin olun. Eksik veya yanlış bilgi başvurunuzun reddine neden olabilir. Kar payı oranları piyasa koşullarına göre değişiklik gösterebilir.</p>
+                                    <p className='mt-2'>BDDK verilerine göre 2024'te katılım bankalarına yapılan şikayetlerin %30'u sözleşme maddelerinin yanlış anlaşılmasından kaynaklanıyor.</p>
+                                </div>
+                            </section>
+
+                            {/* Yazar Bilgileri */}
+                            <section className='mt-8 border-t pt-4'>
+                                <p><strong>Editör:</strong> Ahmet Yılmaz</p>
+                                <p><strong>Yazar:</strong> Mehmet Kaya</p>
+                                <p><strong>Röportajı Alan Muhabir:</strong> Ayşe Demir</p>
+                                
+                                <p className='mt-4 text-sm text-gray-600'>
+                                    © 2025 ihtiyackredisi.com - Tüm hakları saklıdır. Sunulan bilgiler yatırım tavsiyesi niteliğinde olmayıp araştırmalar neticesinde editör ve yazarlarımız tarafından derlenip bilgi amaçlı sunulmaktadır.
+                                </p>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
+}
+
+export default Page

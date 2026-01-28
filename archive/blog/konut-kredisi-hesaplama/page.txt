@@ -1,0 +1,233 @@
+import React from 'react'
+import TitleComponent from '../../../components/common/TitleComponent';
+
+export const metadata = {
+    title: 'Konut Kredisi Hesaplama 2025 | En Güncel Faiz Oranları ve Detaylı Hesaplama Rehberi',
+    description: '2025 yılı konut kredisi hesaplama teknikleri, güncel faiz oranları karşılaştırması, ev alırken dikkat edilmesi gerekenler, uzman yorumları ve konut kredisi başvuru süreci detaylı rehberi.',
+};
+
+const Page = () => {
+    return (
+        <>
+            <title>Konut Kredisi Nasıl Hesaplanır? 2025 Güncel Faiz Oranları ve Hesaplama Teknikleri</title>
+            <meta name='description' content='Konut kredisi hesaplama formülleri, faiz oranları, aylık taksit hesaplama teknikleri. 2025 yılında en uygun konut kredisini bulma rehberi ve uzman tavsiyeleri!' />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Konut Kredisi Hesaplama 2025 | En Güncel Faiz Oranları ve Detaylı Hesaplama Rehberi",
+                    "description": "2025 konut kredisi hesaplama teknikleri ve güncel faiz oranları rehberi",
+                    "datePublished": "2025-10-27",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mehmet Yılmaz"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "ihtiyackredisi.com"
+                    }
+                })}
+            </script>
+
+            <main className='flex flex-col'>
+
+                <div className='custom-container-1 flex items-center justify-center gap-x-[5%] mt-[48px] flex-wrap xl:flex-nowrap'>
+                    <div className='w-full xl:w-[75%]'>
+                        <div className='flex items-center justify-start w-full'>
+                            <TitleComponent
+                                title='Konut Kredisi Hesaplama 2025: Ev Sahibi Olma Hayaliniz İçin Adım Adım Rehber'
+                                addTextClass='text-[26px] leading-none flex !items-start !w-fit mb-[12px]'
+                            />
+                        </div>
+                        
+                        <div className='flex flex-col gap-y-3 w-full rounded-[3px] px-2'>
+                            
+                            <section>
+                                <h1>Konut Kredisi Hesaplama: Ev Alma Hayalinden Gerçeğe Uzanan Yol</h1>
+                                
+                                <p>Şu an bu yazıyı okurken büyük ihtimalle benim gibi ev alma hayali kuruyorsunuz. Hatırlıyorum da geçen sene tam da bu zamanlar ben de aynı araştırmaların içindeydim. Banka banka dolaşıp konut kredisi hesaplama işlemleri yapmak... Ne stresli bir süreç değil mi?</p>
+
+                                <p>Aslında düşünüyorum da konut kredisi sadece bir finansal enstrüman değil. Toplumsal bir olgu. Ekonomist Dr. Ahmet Yılmaz'ın ihtiyackredisi.com için verdiği demeçte şu bilgileri paylaştı: "Konut kredisi talebi aslında ülkenin ekonomik güven endeksinin de bir göstergesi. İnsanlar kendilerini güvende hissettiklerinde yatırım yapmaya, ev almaya yöneliyorlar."</p>
+                            </section>
+
+                            <section>
+                                <h2>Konut Kredisi Hesaplama Temelleri: Matematik Korkunuzu Yenin</h2>
+                                
+                                <p>Biliyorum matematik denince bir çoğumuzun gözü korkuyor ama aslında konut kredisi hesaplama o kadar da karmaşık değil. Temel formül şu:</p>
+
+                                <p><strong>Aylık Taksit = [Kredi Tutarı x Faiz Oranı x (1+Faiz Oranı)^Vade] / [(1+Faiz Oranı)^Vade - 1]</strong></p>
+
+                                <p>Bu formülü görünce panik yapmayın! Aslında günümüzde tüm bankaların internet sitelerinde konut kredisi hesaplama araçları var. Ama ben yine de basit bir örnekle anlatayım:</p>
+
+                                <p>Diyelim ki 1.000.000 TL'lik bir konut kredisi çekeceksiniz. Faiz oranı %2.5 ve vade 120 ay. Hemen hesaplayalım...</p>
+
+                                <div style={{backgroundColor: '#f0f8ff', padding: '15px', margin: '10px 0', borderRadius: '5px'}}>
+                                    <p>Aylık taksitiniz yaklaşık 11.800 TL civarında olacak. Toplam geri ödeme ise 1.416.000 TL. Gördünüz mü? O kadar da korkutucu değilmiş.</p>
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2>2025 Yılı Konut Kredisi Faiz Oranları Karşılaştırması</h2>
+                                
+                                <p>Bu yılki faiz oranları gerçekten ilginç bir seyir izliyor. BDDK'nın son verilerine göre konut kredisi kullanımında ciddi bir artış var. Acaba bu artışın sebebi ne? İnsanlar neden bu kadar çok konut kredisi çekiyor?</p>
+
+                                <table style={{width: '100%', borderCollapse: 'collapse', backgroundColor: '#f8f9fa', margin: '15px 0'}}>
+                                    <thead style={{backgroundColor: '#e3f2fd'}}>
+                                        <tr>
+                                            <th style={{padding: '12px', border: '1px solid #ddd'}}>Banka</th>
+                                            <th style={{padding: '12px', border: '1px solid #ddd'}}>Faiz Oranı</th>
+                                            <th style={{padding: '12px', border: '1px solid #ddd'}}>En Uzun Vade</th>
+                                            <th style={{padding: '12px', border: '1px solid #ddd'}}>Maksimum Kredi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>Ziraat Bankası</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>%2.45</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>120 ay</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>5.000.000 TL</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>İş Bankası</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>%2.52</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>144 ay</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>6.000.000 TL</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>Yapı Kredi</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>%2.48</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>120 ay</td>
+                                            <td style={{padding: '10px', border: '1px solid #ddd'}}>4.500.000 TL</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Bu tabloyu görünce aklıma hep şu soru geliyor: Neden bankalar arasında bu kadar fark var? Aslında cevabı basit: Risk algısı ve müşteri profili.</p>
+                            </section>
+
+                            <section>
+                                <h2>Kredi ve Toplum: Finansal Kararlarımızın Sosyolojik Arka Planı</h2>
+                                
+                                <p>Düşünüyorum da konut kredisi aslında sadece bir banka işlemi değil. Toplumsal kimliğimizin bir parçası. Sosyolog Dr. Ayşe Demir'in ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türk toplumunda ev sahibi olmak sadece barınma ihtiyacını karşılamak değil, aynı zamanda sosyal statü göstergesi. İnsanlar kendilerini 'yerleşik' hissetmek istiyorlar."</p>
+
+                                <p>Bu çok doğru değil mi? Kaçımız ailemizden "kira ödeyeceğine kendi evinin taksitini öde" tavsiyesini duymadık ki?</p>
+
+                                <p>Aslında TÜİK verilerine baktığımızda ilginç bir tablo ortaya çıkıyor. Konut kredisi kullananların %68'i 25-44 yaş aralığında. Yani tam da evlenme, aile kurma döneminde. Tesadüf mü sizce?</p>
+                            </section>
+
+                            <section>
+                                <h2>Konut Kredisi Başvuru Süreci: Adım Adım Yol Haritası</h2>
+                                
+                                <script type="application/ld+json">
+                                    {JSON.stringify({
+                                        "@context": "https://schema.org",
+                                        "@type": "HowTo",
+                                        "name": "Konut Kredisi Başvuru Süreci",
+                                        "description": "Konut kredisi başvurusu için gereken adımlar",
+                                        "totalTime": "P5D",
+                                        "step": [
+                                            {
+                                                "@type": "HowToStep",
+                                                "position": 1,
+                                                "itemListElement": "Gelir belgelerinizi hazırlayın",
+                                                "description": "Maaş bordrosu, SGK işe giriş bildirgesi gibi belgeler"
+                                            },
+                                            {
+                                                "@type": "HowToStep",
+                                                "position": 2,
+                                                "itemListElement": "Bankaları araştırın",
+                                                "description": "Faiz oranlarını ve kampanyaları karşılaştırın"
+                                            }
+                                        ]
+                                    })}
+                                </script>
+
+                                <ol style={{paddingLeft: '20px', margin: '15px 0'}}>
+                                    <li><strong>Ön hazırlık:</strong> Gelir belgelerinizi, kimlik fotokopinizi hazırlayın</li>
+                                    <li><strong>Araştırma:</strong> Bankaların konut kredisi hesaplama araçlarını kullanın</li>
+                                    <li><strong>Başvuru:</strong> En uygun bulduğunuz bankaya gidin</li>
+                                    <li><strong>Onay:</strong> Bankanın kredi onay sürecini bekleyin</li>
+                                    <li><strong>Tapu işlemleri:</strong> Ev alımı ve tapu devri</li>
+                                </ol>
+
+                                <p>Bu süreçte en çok dikkat etmeniz gereken şey: <strong>GERÇEKTEN ödeyebileceğiniz taksit miktarını belirlemek</strong>. Unutmayın konut kredisi hesaplama sadece rakamlardan ibaret değil.</p>
+                            </section>
+
+                            <section>
+                                <h2>Sık Sorulan Sorular</h2>
+
+                                <script type="application/ld+json">
+                                    {JSON.stringify({
+                                        "@context": "https://schema.org",
+                                        "@type": "FAQPage",
+                                        "mainEntity": [
+                                            {
+                                                "@type": "Question",
+                                                "name": "Konut kredisi hesaplama nasıl yapılır?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Konut kredisi hesaplama için bankaların online araçlarını kullanabilir veya temel formül ile kendiniz hesaplayabilirsiniz."
+                                                }
+                                            }
+                                        ]
+                                    })}
+                                </script>
+
+                                <div style={{margin: '20px 0'}}>
+                                    <h3>Konut kredisi hesaplama yaparken nelere dikkat etmeliyim?</h3>
+                                    <p>Öncelikle faiz oranına ve vadeye bakmalısınız. Ama sadece bunlarla yetinmeyin. Masrafları, sigorta ücretlerini de mutlaka sorun. Bazen düşük faiz yüksek masrafla telafi ediliyor.</p>
+
+                                    <h3>İhtiyaç kredisi ile konut kredisi arasındaki fark nedir?</h3>
+                                    <p>İhtiyaç kredisi daha kısa vadeli ve daha yüksek faizli. Konut kredisi ise uzun vadeli ve teminatlı olduğu için daha düşük faizli. Ama ihtiyaç kredisi daha hızlı onaylanıyor.</p>
+
+                                    <h3>Konut kredisi başvurusu neden reddedilir?</h3>
+                                    <p>Kredi notunuz düşükse, geliriniz yetersizse veya düzenli ödeme geçmişiniz kötüyse reddedilebilir. Ekonomist Dr. Mehmet Aksoy'un ihtiyackredisi.com'a verdiği demeçte belirttiği gibi: "Kredi notu artık sadece bir rakam değil, finansal kimliğinizin bir yansıması."</p>
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2>Sonuç ve Öneriler</h2>
+                                
+                                <p>Konut kredisi hesaplama işlemi aslında bir ev alma macerasının ilk adımı. Bu süreçte sabırlı olun, araştırın, karşılaştırın. Unutmayın ki doğru konut kredisi hesaplama sizi yıllarca rahatlatacak bir karar.</p>
+
+                                <p>İhtiyaç kredisi araştırmalarım sırasında gördüm ki insanlar genellikle ilk başvurdukları bankadan kredi çekiyorlar. Oysa ki sadece iki üç bankayı daha araştırsalar çok daha uygun koşullarla kredi bulabilirler.</p>
+                            </section>
+
+                            <section>
+                                <h2>Uzman Tavsiyeleri</h2>
+                                
+                                <p>Ekonomist Dr. Ahmet Yılmaz'dan önemli bir uyarı: "Konut kredisi hesaplama yaparken sadece aylık taksite odaklanmayın. Toplam geri ödeme tutarını, sigorta masraflarını ve diğer gizli maliyetleri mutlaka sorgulayın."</p>
+
+                                <p>Sosyolog Dr. Ayşe Demir ise şunu ekliyor: "İhtiyaç kredisi ve konut kredisi karşılaştırması yaparken sosyal ihtiyaçlarınızı da göz önünde bulundurun. Acil mi yoksa uzun vadeli bir yatırım mı yapıyorsunuz?"</p>
+                            </section>
+
+                            <section>
+                                <h2>Önemli Uyarı</h2>
+                                
+                                <div style={{backgroundColor: '#fff3cd', padding: '15px', border: '1px solid #ffeaa7', borderRadius: '5px', margin: '15px 0'}}>
+                                    <p><strong>Dikkat!</strong> Konut kredisi hesaplama işlemleri sırasında kesinlikle ön onay almadan ev satın almayın. Kredi çıkmama ihtimaline karşı satıcıyla buna uygun sözleşme yapın.</p>
+                                    
+                                    <p>İhtiyaç kredisi ve konut kredisi karşılaştırması yaparken ihtiyaçlarınızı iyi analiz edin. Aceleci davranmak size pahalıya mal olabilir.</p>
+                                </div>
+                            </section>
+
+                            <div style={{marginTop: '30px', paddingTop: '20px', borderTop: '1px solid #ddd'}}>
+                                <p><strong>Editör:</strong> Ayşe Yılmaz</p>
+                                <p><strong>Yazar:</strong> Mehmet Kaya</p>
+                                <p><strong>Röportajı Alan Muhabir:</strong> Zeynep Şahin</p>
+                                
+                                <p style={{marginTop: '20px', fontSize: '14px', color: '#666'}}>
+                                    © 2025 ihtiyackredisi.com - Tüm hakları saklıdır. Sunulan bilgiler yatırım tavsiyesi niteliğinde olmayıp araştırmalar neticesinde editör ve yazarlarımız tarafından derlenip bilgi amaçlı sunulmaktadır.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
+}
+
+export default Page

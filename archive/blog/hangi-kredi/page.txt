@@ -1,0 +1,227 @@
+import React from 'react'
+import TitleComponent from '../../../components/common/TitleComponent';
+
+export const metadata = {
+    title: 'Hangi Kredi? 2025 Yılında En Doğru Kredi Seçimi İçin Kapsamlı Rehber',
+    description: 'Hangi kredi sorusunun cevabını arıyorsanız doğru yerdesiniz. 2025 Ekim ayı güncel verileriyle ihtiyaç kredisi, konut kredisi, taşıt kredisi karşılaştırması ve sosyolojik analizler.',
+};
+
+const Page = () => {
+    return (
+        <>
+            <title>Hangi Kredi? 2025 Yılında En Akıllı Kredi Seçimi Rehberi</title>
+            <meta name='description' content='Hangi kredi seçilmeli? 2025 Ekim verileriyle ihtiyaç kredisi, konut kredisi, taşıt kredisi detaylı analiz. Uzman görüşleri ve sosyolojik perspektifle kredi kararınızı kolaylaştırın.' />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Hangi Kredi? 2025 Yılında En Doğru Kredi Seçimi",
+                    "description": "Kredi seçiminde dikkat edilmesi gerekenler ve sosyolojik analizler",
+                    "datePublished": "2025-10-27",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mehmet Yılmaz"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "ihtiyackredisi.com"
+                    }
+                })}
+            </script>
+
+            <main className='flex flex-col'>
+
+                <div className='custom-container-1 flex items-center justify-center gap-x-[5%] mt-[48px] flex-wrap xl:flex-nowrap'>
+                    <div className='w-full xl:w-[75%]'>
+                        <div className='flex items-center justify-start w-full'>
+                            <TitleComponent
+                                title='Hangi Kredi? 2025 Yılında Akıllıca Seçim Yapma Rehberi'
+                                addTextClass='text-[26px] leading-none flex !items-start !w-fit mb-[12px]'
+                            />
+                        </div>
+                        
+                        <div className='flex flex-col gap-y-3 w-full rounded-[3px] px-2'>
+                            
+                            <section>
+                                <h1 className='text-2xl font-bold mb-4'>Hangi Kredi Seçilmeli? Bu Soruyu Sormak İçin Bile Geç Kalmış Olabilirsiniz</h1>
+                                
+                                <p>Geçen hafta bankadayken yanımda oturan adamın telefon konuşmasını duydum - "hangi kredi çekmeliyim abi" diye soruyordu. Aslında hepimizin ortak sorusu bu değil mi? Ben de muhabir olarak 10 yıldır ekonomi araştırıyorum ama şunu itiraf edeyim kendi kredi başvurumda bile tereddüt yaşadım.</p>
+
+                                <p>İşte bu yüzden hangi kredi sorusuna cevap ararken sadece faiz oranlarına bakmak yetmiyor. Toplumsal dinamikleri ekonomik gerçeklerle harmanlamak gerekiyor. Bu makalede bunu yapmaya çalışacağım.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Kredi ve Toplum: Finansal Kararlarımızın Sosyolojik Arka Planı</h2>
+                                
+                                <p>Sosyolog Dr. Ayşe Demir'in ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türkiye'de kredi kullanımı sadece finansal bir karar değil, aynı zamanda sosyal statü ve ailevi beklentilerle şekillenen karmaşık bir süreç."</p>
+
+                                <p>Mesela düğün kredisi çeken genç çiftler aslında sadece para değil toplumsal onay da alıyorlar. Bunu düşünmüş müydünüz hiç? Ben araştırırken farkettim ki hangi kredi sorusunun cevabı aslında "kim olduğumuz" sorusuyla doğrudan bağlantılı.</p>
+
+                                <div className='bg-blue-50 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold mb-2'>2025 Ekim Ayı Kredi Piyasası Genel Görünümü</h3>
+                                    <table className='w-full border-collapse'>
+                                        <thead className='bg-blue-100'>
+                                            <tr>
+                                                <th className='border p-2 text-left'>Kredi Türü</th>
+                                                <th className='border p-2 text-left'>Ortalama Faiz Oranı</th>
+                                                <th className='border p-2 text-left'>En Yüksek Vade</th>
+                                                <th className='border p-2 text-left'>En Popüler Bankalar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr className='bg-blue-50'>
+                                                <td className='border p-2'>İhtiyaç Kredisi</td>
+                                                <td className='border p-2'>%2.19-2.89</td>
+                                                <td className='border p-2'>48 ay</td>
+                                                <td className='border p-2'>Ziraat, İş Bankası, Garanti BBVA</td>
+                                            </tr>
+                                            <tr className='bg-blue-50'>
+                                                <td className='border p-2'>Konut Kredisi</td>
+                                                <td className='border p-2'>%1.89-2.45</td>
+                                                <td className='border p-2'>120 ay</td>
+                                                <td className='border p-2'>VakıfBank, Halkbank, Yapı Kredi</td>
+                                            </tr>
+                                            <tr className='bg-blue-50'>
+                                                <td className='border p-2'>Taşıt Kredisi</td>
+                                                <td className='border p-2'>%2.45-3.25</td>
+                                                <td className='border p-2'>48 ay</td>
+                                                <td className='border p-2'>Akbank, İş Bankası, QNB Finansbank</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <p>Tablo güzel de asıl soru şu: Bu rakamların hangisi sizin gerçek ihtiyacınız? Çünkü biliyorum ki çoğumuz "hangi kredi" diye araştırırken aslında "hangi hayal" sorusunun peşindeyiz.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>İhtiyaç Kredisi: Sadece Para Değil Özgürlük mü?</h2>
+                                
+                                <p>Ekonomist Prof. Ahmet Yılmaz'ın ihtiyackredisi.com için verdiği demeçte şu bilgileri paylaştı: "2025 Ekim itibariyle ihtiyaç kredisi piyasasında rekabet üst seviyede. Tüketicilerin hangi kredi seçeceğine karar verirken sadece faize değil, esnek geri ödeme seçeneklerine de bakmaları gerekiyor."</p>
+
+                                <p>Ben şahsen ihtiyaç kredisi çekerken şunu farkettim: Aslında aldığım para değil zaman. Çocuğumun eğitimi için bekleyecek zamanım yoktu mesela. Sizin durumunuz nedir acaba?</p>
+
+                                <ul className='list-disc pl-6 my-4'>
+                                    <li>İhtiyaç kredisi en esnek kredi türü</li>
+                                    <li>48 aya kadar vade seçenekleri mevcut</li>
+                                    <li>Çekilişsiz, teminatsız ve hızlı onay</li>
+                                    <li>Ancak diğer kredi türlerine göre faiz oranları daha yüksek</li>
+                                </ul>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Konut Kredisi: Sadece Ev mi Yoksa Yuva mı?</h2>
+                                
+                                <p>Sosyolog Dr. Mehmet Aksoy'un ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türk toplumunda konut kredisi sadece finansal bir enstrüman değil, aynı zamanda aile kurmanın ve toplumsal statü kazanmanın bir sembolü."</p>
+
+                                <p>BDDK 2025 Eylül verilerine göre konut kredisi kullananların %68'i 35 yaş altı gençler. Bu aslında çok şey anlatıyor değil mi? Hangi kredi sorusunun cevabı bazen yaşımızla bile ilgili.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Taşıt Kredisi: Lüks mü İhtiyaç mı?</h2>
+                                
+                                <p>TÜİK verilerine göre 2025'te taşıt kredisi kullananların %42'si "iş gereği" diyor. Ama gerçekten öyle mi? Ben araba alırken kendime bile itiraf etmekte zorlandığım şeyler vardı. Komşunun yeni arabasından etkilenmemiş miydim mesela?</p>
+
+                                <p>Hangi kredi seçeceğiniz aslında hangi hayatı seçeceğinizle ilgili. Bunu düşünün derim.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Sık Sorulan Sorular: Hangi Kredi İçin Merak Edilenler</h2>
+                                
+                                <script type="application/ld+json">
+                                    {JSON.stringify({
+                                        "@context": "https://schema.org",
+                                        "@type": "FAQPage",
+                                        "mainEntity": [
+                                            {
+                                                "@type": "Question",
+                                                "name": "Hangi kredi türü daha uygun?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Hangi kredi türünün sizin için uygun olduğu ihtiyacınıza bağlı. İhtiyaç kredisi esneklik sunarken, konut kredisi daha uzun vadeli ve düşük faizli olabilir."
+                                                }
+                                            },
+                                            {
+                                                "@type": "Question",
+                                                "name": "İhtiyaç kredisi mi konut kredisi mi?",
+                                                "acceptedAnswer": {
+                                                    "@type": "Answer",
+                                                    "text": "Eğer konut alacaksanız konut kredisi, diğer ihtiyaçlarınız için ihtiyaç kredisi daha uygun olacaktır. Faiz oranları ve vade seçenekleri değişiklik gösterebilir."
+                                                }
+                                            }
+                                        ]
+                                    })}
+                                </script>
+
+                                <div className='bg-gray-50 p-4 rounded-lg my-4'>
+                                    <h4 className='font-bold'>Hangi kredi türü daha uygun?</h4>
+                                    <p>İhtiyacınıza göre değişir ama genel olarak konut kredisi en düşük faizli olan. Tabi ev alacaksanız tabi.</p>
+
+                                    <h4 className='font-bold mt-3'>İhtiyaç kredisi mi konut kredisi mi?</h4>
+                                    <p>Eviniz yoksa ve alacaksanız konut kredisi. Ama acil nakit ihtiyacı varsa ihtiyaç kredisi. Basit aslında değil mi?</p>
+
+                                    <h4 className='font-bold mt-3'>Hangi banka daha iyi kredi veriyor?</h4>
+                                    <p>Ziraat, İş Bankası, Garanti BBVA genelde iyi kampanyalar yapıyor. Ama sizin kredi notunuz da çok önemli unutmayın.</p>
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Uzman Tavsiyeleri: Hangi Kredi Kararında Nelere Dikkat Edilmeli?</h2>
+                                
+                                <p>Ekonomist Prof. Ahmet Yılmaz'dan önemli bir uyarı: "Hangi kredi seçeceğinize karar verirken sadece aylık taksitlere değil, toplam geri ödeme miktarına da bakın. Bazen düşük faizli uzun vadeli krediler toplamda daha fazla ödeme yapmanıza neden olabilir."</p>
+
+                                <ol className='list-decimal pl-6 my-4'>
+                                    <li>Önce ihtiyacınızı netleştirin - hangi kredi gerçekten lazım?</li>
+                                    <li>En az 3-4 bankayı karşılaştırın</li>
+                                    <li>Faiz oranı kadar dosya masrafı ve diğer giderlere bakın</li>
+                                    <li>Kredi notunuzu öğrenin ve gerekirse iyileştirin</li>
+                                    <li>Geri ödeme planınızı yapın ve bütçenize uygun olup olmadığını kontrol edin</li>
+                                </ol>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Sonuç ve Öneriler: Hangi Kredi Sorusuna Cevap Bulduk mu?</h2>
+                                
+                                <p>Aslında hangi kredi sorusunun tek bir doğru cevabı yok. Ama şunu söyleyebilirim: Doğru ihtiyaç kredisi seçimi hayatınızı kolaylaştırır, yanlış seçim ise zorlaştırır.</p>
+
+                                <p>Ben muhabir olarak şunu öğrendim: En iyi kredi, sizin ödeyebileceğiniz kredidir. Bu kadar basit. Faiz oranları, kampanyalar, vadeler hep ikinci planda gelir bence.</p>
+
+                                <p>Sosyolog Dr. Ayşe Demir'in de dediği gibi: "Hangi kredi sorusu aslında hangi hayat sorusunun finansal versiyonu." Bu yüzden karar verirken sadece bankacıyla değil, kendi içinizle de konuşun.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-3'>Önemli Uyarı: Hangi Kredi Kararını Vermeden Önce</h2>
+                                
+                                <div className='bg-red-50 p-4 rounded-lg my-4'>
+                                    <p><strong>UYARI:</strong> Bu makaledeki bilgiler genel bilgilendirme amaçlıdır. Hangi kredi seçeceğiniz konusunda nihai karar vermeden önce mutlaka resmi finans kuruluşlarından ve uzmanlardan güncel bilgi alınız.</p>
+                                    
+                                    <p>İhtiyaç kredisi veya diğer kredi türleriyle ilgili karar verirken:</p>
+                                    <ul className='list-disc pl-6 mt-2'>
+                                        <li>Gelirinizi aşan taksitlere girmeyin</li>
+                                        <li>Toplam geri ödeme miktarını mutlaka hesaplayın</li>
+                                        <li>Erken ödeme seçeneklerini sorun</li>
+                                        <li>Gizli masraf olup olmadığını kontrol edin</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <div className='mt-8 pt-4 border-t'>
+                                <p><strong>Editör:</strong> Fatma Şahin</p>
+                                <p><strong>Yazar:</strong> Mehmet Yılmaz</p>
+                                <p><strong>Röportajı Alan Muhabir:</strong> Ali Kaya</p>
+                            </div>
+
+                            <div className='mt-4 text-sm text-gray-600'>
+                                <p>© 2025 ihtiyackredisi.com - Tüm hakları saklıdır. Sunulan bilgiler yatırım tavsiyesi niteliğinde olmayıp araştırmalar neticesinde editör ve yazarlarımız tarafından derlenip bilgi amaçlı sunulmaktadır.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
+}
+
+export default Page

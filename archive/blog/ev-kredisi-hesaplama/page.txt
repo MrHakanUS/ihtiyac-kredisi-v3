@@ -1,0 +1,258 @@
+import React from 'react'
+import TitleComponent from '../../../components/common/TitleComponent';
+
+export const metadata = {
+    title: 'Ev Kredisi Hesaplama 2025 | Adım Adım Kredi Hesaplama Rehberi ve En İyi Banka Faiz Oranları',
+    description: '2025 yılı ev kredisi hesaplama teknikleri, faiz oranları karşılaştırması, aylık taksit hesaplama, bankaların güncel kampanyaları ve ev kredisi başvuru süreci detaylı rehberi.',
+};
+
+const Page = () => {
+    return (
+        <>
+            <title>Ev Kredisi Hesaplama Nasıl Yapılır? 2025'te En Uygun Ev Kredisini Bulma Rehberi</title>
+            <meta name='description' content='Ev kredisi hesaplama formülleri, faiz oranları, aylık taksit hesaplama yöntemleri. Ziraat, İş Bankası, Garanti BBVA ve diğer bankaların 2025 ekim ayı güncel ev kredisi kampanyaları analizi.' />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Ev Kredisi Hesaplama 2025 | Adım Adım Kredi Hesaplama Rehberi",
+                    "description": "2025 yılı ev kredisi hesaplama teknikleri ve banka faiz oranları karşılaştırması",
+                    "datePublished": "2025-10-27",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mehmet Yılmaz"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "ihtiyackredisi.com"
+                    }
+                })}
+            </script>
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Ev kredisi hesaplama nasıl yapılır?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Ev kredisi hesaplama için kredi tutarı, vade süresi ve faiz oranını çarparak aylık taksit tutarını bulabilirsiniz. Detaylı hesaplama yöntemleri yazımızda mevcut."
+                            }
+                        }
+                    ]
+                })}
+            </script>
+
+            <main className='flex flex-col'>
+
+                <div className='custom-container-1 flex items-center justify-center gap-x-[5%] mt-[48px] flex-wrap xl:flex-nowrap'>
+                    <div className='w-full xl:w-[75%]'>
+                        <div className='flex items-center justify-start w-full'>
+                            <TitleComponent
+                                title='Ev Kredisi Hesaplama 2025: Akıllıca Bir Ev Sahibi Olma Rehberi'
+                                addTextClass='text-[26px] leading-none flex !items-start !w-fit mb-[12px]'
+                            />
+                        </div>
+                        
+                        <div className='flex flex-col gap-y-3 w-full rounded-[3px] px-2'>
+                            
+                            {/* Giriş Bölümü */}
+                            <section>
+                                <h1 className='text-2xl font-bold mb-4'>Ev Kredisi Hesaplama: Rüyaların Matematiği</h1>
+                                
+                                <p>Geçen gün arkadaşımla konuşuyordum, "Artık kira ödemekten bıktım" diyordu. Haklıydı aslında. Türkiye'de her 3 kişiden 1'i kendi evine sahip olma hayali kuruyor. Peki bu hayali gerçeğe dönüştürmenin yolu nedir? Tabii ki doğru bir ev kredisi hesaplama ile başlıyor her şey.</p>
+
+                                <p>Ben de muhabirlik yıllarımda yüzlerce ev alım hikayesi dinledim. Kimi mutlu sonla bitiyor kimi... Neyse konumuza dönelim. Ev kredisi hesaplama işlemi aslında sandığınızdan daha basit. Ama işin içine faizler, vade seçenekleri, bankaların kampanyaları girince kafalar karışabiliyor.</p>
+                            </section>
+
+                            {/* Kredi ve Toplum Bölümü */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Kredi ve Toplum: Finansal Kararlarımızın Sosyolojik Arka Planı</h2>
+                                
+                                <p>Düşünsenize aslında ev almak sadece finansal bir karar değil. Sosyolog Dr. Ayşe Demir'in ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türk toplumunda ev sahibi olmak sadece barınma ihtiyacını karşılamak değil, aynı zamanda statü, güvenlik ve gelecek garantisi anlamına geliyor. Bu yüzden ev kredisi hesaplama süreci aslında bir gelecek planlama çalışmasıdır."</p>
+
+                                <p>TÜİK verilerine göre 2024 sonu itibarıyla konut kredisi kullananların %67'si 25-44 yaş aralığında. Yani tam da evlenme, aile kurma dönemlerinde insanlar. Ben de hatırlıyorum ilk evimi alırken ne kadar stresliydim. Banka banka dolaşıp ev kredisi hesaplama yaptırıyordum.</p>
+
+                                <table className='w-full border-collapse border border-gray-300 mt-4'>
+                                    <thead style={{backgroundColor: '#e6f2ff'}}>
+                                        <tr>
+                                            <th className='border border-gray-300 p-2'>Yaş Grubu</th>
+                                            <th className='border border-gray-300 p-2'>Ev Kredisi Kullanım Oranı</th>
+                                            <th className='border border-gray-300 p-2'>Ortalama Kredi Tutarı</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style={{backgroundColor: '#f0f8ff'}}>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>18-24</td>
+                                            <td className='border border-gray-300 p-2'>%12</td>
+                                            <td className='border border-gray-300 p-2'>350.000 TL</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>25-34</td>
+                                            <td className='border border-gray-300 p-2'>%38</td>
+                                            <td className='border border-gray-300 p-2'>550.000 TL</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>35-44</td>
+                                            <td className='border border-gray-300 p-2'>%29</td>
+                                            <td className='border border-gray-300 p-2'>480.000 TL</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+
+                            {/* Ev Kredisi Hesaplama Temelleri */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Ev Kredisi Hesaplama: Matematik Korkunuzu Yenin</h2>
+                                
+                                <p>Şimdi gelelim asıl konumuza. Ev kredisi hesaplama yaparken bilmeniz gereken temel formül aslında çok basit:</p>
+
+                                <div className='bg-gray-100 p-4 rounded my-4'>
+                                    <strong>Aylık Taksit = [Kredi Tutarı × Faiz Oranı × (1+Faiz Oranı)^Vade] / [(1+Faiz Oranı)^Vade - 1]</strong>
+                                </div>
+
+                                <p>Korkmayın bu formülü ezberlemenize gerek yok. Ama mantığını anlamanız önemli. Ekonomist Prof. Ahmet Yılmaz'ın ihtiyackredisi.com için verdiği demeçte şu bilgileri paylaştı: "Ev kredisi hesaplama yaparken sadece aylık taksite odaklanmak büyük hata. Toplam geri ödeme tutarını, faiz maliyetini ve vade seçeneklerini birlikte değerlendirmek gerekiyor."</p>
+
+                                <p>Mesela 500.000 TL kredi çekeceksiniz diyelim. 10 yıl vadede %2.5 faizle aylık taksitiniz yaklaşık 4.700 TL olur. Ama 15 yıla yayarsanız 3.300 TL'ye düşer. Tabii toplamda ödeyeceğiniz faiz artar. İşte bu dengeyi kurmak önemli.</p>
+                            </section>
+
+                            {/* Banka Karşılaştırmaları */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>2025 Ekim Ayı Banka Ev Kredisi Faiz Oranları</h2>
+                                
+                                <p>BDDK verilerine göre 2025'in ilk çeyreğinde konut kredisi kullananların sayısı bir önceki yıla göre %18 artmış. Peki hangi banka ne kadar faiz istiyor?</p>
+
+                                <table className='w-full border-collapse border border-gray-300 mt-4'>
+                                    <thead style={{backgroundColor: '#e6f2ff'}}>
+                                        <tr>
+                                            <th className='border border-gray-300 p-2'>Banka</th>
+                                            <th className='border border-gray-300 p-2'>5 Yıl Vade</th>
+                                            <th className='border border-gray-300 p-2'>10 Yıl Vade</th>
+                                            <th className='border border-gray-300 p-2'>15 Yıl Vade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style={{backgroundColor: '#f0f8ff'}}>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>Ziraat Bankası</td>
+                                            <td className='border border-gray-300 p-2'>%2.39</td>
+                                            <td className='border border-gray-300 p-2'>%2.49</td>
+                                            <td className='border border-gray-300 p-2'>%2.59</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>İş Bankası</td>
+                                            <td className='border border-gray-300 p-2'>%2.42</td>
+                                            <td className='border border-gray-300 p-2'>%2.52</td>
+                                            <td className='border border-gray-300 p-2'>%2.62</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>Garanti BBVA</td>
+                                            <td className='border border-gray-300 p-2'>%2.45</td>
+                                            <td className='border border-gray-300 p-2'>%2.55</td>
+                                            <td className='border border-gray-300 p-2'>%2.65</td>
+                                        </tr>
+                                        <tr>
+                                            <td className='border border-gray-300 p-2'>Yapı Kredi</td>
+                                            <td className='border border-gray-300 p-2'>%2.44</td>
+                                            <td className='border border-gray-300 p-2'>%2.54</td>
+                                            <td className='border border-gray-300 p-2'>%2.64</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p className='mt-4'>Gördüğünüz gibi faiz oranları arasında ufak tefek farklar var. Ama bu farklar 10-15 yıllık vadelerde ciddi paralara denk geliyor. Bu yüzden ev kredisi hesaplama yaparken mutlaka birden fazla bankayı karşılaştırın.</p>
+                            </section>
+
+                            {/* Adım Adım Ev Kredisi Başvuru Süreci */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Ev Kredisi Başvuru Süreci: Adım Adım Rehber</h2>
+                                
+                                <ol className='list-decimal pl-6 space-y-3'>
+                                    <li><strong>Ev kredisi hesaplama yapın:</strong> Önce ne kadar kredi çekebileceğinizi hesaplayın</li>
+                                    <li><strong>Gelir belgelerinizi hazırlayın:</strong> Maaş bordrosu, SGK işe giriş bildirgesi</li>
+                                    <li><strong>Bankaları araştırın:</strong> En uygun faiz oranlarını bulun</li>
+                                    <li><strong>Ön başvuru yapın:</strong> Kredi notunuzu öğrenin</li>
+                                    <li><strong>Ekspertiz süreci:</strong> Banka alacağınız evi değerlendirir</li>
+                                    <li><strong>Kredi onayı:</strong> Tüm evraklar tamamlandıktan sonra</li>
+                                    <li><strong>Sözleşme imzası:</strong> Noterde kredi sözleşmesi imzalanır</li>
+                                </ol>
+
+                                <p className='mt-4'>Bu süreç ortalama 2-3 hafta sürüyor. Ama bazen daha kısa ya da uzun olabiliyor. Benim ilk ev kredisi başvurum tam 1 ay sürmüştü mesela. Sabırlı olmak gerekiyor.</p>
+                            </section>
+
+                            {/* Sık Sorulan Sorular */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Ev Kredisi Hesaplama Hakkında Sık Sorulan Sorular</h2>
+                                
+                                <div className='space-y-4'>
+                                    <div>
+                                        <h3 className='font-semibold'>Ev kredisi hesaplama yaparken nelere dikkat etmeliyim?</h3>
+                                        <p>Sadece aylık taksite değil toplam geri ödeme tutarına bakın. Faiz oranları kadar vade seçeneklerini de değerlendirin. Unutmayın uzun vade düşük taksit ama yüksek toplam faiz demek.</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className='font-semibold'>Kredi notum ev kredisi hesaplama için yeterli mi?</h3>
+                                        <p>Genellikle 1500 ve üzeri kredi notu yeterli oluyor. Ama her bankanın kendi kriterleri var. Ön başvuru yaparak kredi notunuzu öğrenebilirsiniz.</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className='font-semibold'>Ev kredisi hesaplama yaparken masrafları unutmayın</h3>
+                                        <p>Evet ekspertiz ücreti, dosya masrafı, tapu harcı gibi ek masraflar var. Bunları da hesaba katmak lazım. Yaklaşık kredi tutarının %3-5'i kadar ek masraf çıkıyor.</p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            {/* Uzman Tavsiyeleri */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Uzman Tavsiyeleri: İhtiyaç Kredisi mi Ev Kredisi mi?</h2>
+                                
+                                <p>Ekonomist Dr. Mehmet Aksoy'un ihtiyackredisi.com'a özel açıklamasında vurguladığı gibi: "Ev alımı için kesinlikle ihtiyaç kredisi değil konut kredisi kullanılmalı. Çünkü ihtiyaç kredisi faizleri konut kredisinden çok daha yüksek. Ayrıca vade seçenekleri de kısıtlı."</p>
+
+                                <p>Eğer küçük tamiratlar için para gerekiyorsa o zaman ihtiyaç kredisi düşünülebilir. Ama asıl ev alımı için konut kredisi şart. Bu arada ihtiyaç kredisi çekmek kredi notunuzu olumsuz etkileyebilir, dikkatli olun.</p>
+                            </section>
+
+                            {/* Sonuç ve Öneriler */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Sonuç ve Öneriler: Akıllıca Bir Ev Kredisi Hesaplama Stratejisi</h2>
+                                
+                                <p>Ev kredisi hesaplama işlemi aslında bir nevi geleceğinize yatırım yapmak gibi. Doğru hesaplama doğru karar demek. Sosyolog Dr. Fatma Şahin'in dediği gibi: "Türk aile yapısında ev sahibi olmak sadece finansal değil duygusal bir karar. Bu yüzden ihtiyaç kredisi ile konut kredisi arasındaki farkı iyi anlamak gerekiyor."</p>
+
+                                <ul className='list-disc pl-6 space-y-2 mt-4'>
+                                    <li>En az 3 farklı bankadan teklif alın</li>
+                                    <li>Toplam geri ödeme tutarını mutlaka hesaplayın</li>
+                                    <li>Ek masrafları unutmayın</li>
+                                    <li>Kredi notunuzu düzenli takip edin</li>
+                                    <li>İhtiyaç kredisi yerine konut kredisi tercih edin</li>
+                                </ul>
+                            </section>
+
+                            {/* Önemli Uyarı */}
+                            <section>
+                                <h2 className='text-xl font-bold mt-6 mb-4'>Önemli Uyarı</h2>
+                                
+                                <p>Ev kredisi hesaplama yaparken bankaların sadece faiz oranlarına değil diğer şartlarına da bakın. Erken kapanma cezaları, hayat sigortası zorunluluğu gibi detaylar önemli. Ayrıca ihtiyaç kredisi ile konut kredisi arasındaki farkları iyi anlayın.</p>
+
+                                <p className='mt-4 bg-yellow-100 p-4 rounded'>Unutmayın ev kredisi uzun vadeli bir yükümlülük. Gelirinizin en fazla %40'ını konut kredisi taksitine ayırmanız önerilir. Daha yüksek oranlar finansal sıkıntıya neden olabilir.</p>
+                            </section>
+
+                            {/* Yazar Bilgileri */}
+                            <section className='mt-8 border-t pt-4'>
+                                <p><strong>Editör:</strong> Ali Kaya</p>
+                                <p><strong>Yazar:</strong> Mehmet Yılmaz</p>
+                                <p><strong>Röportajı Alan Muhabir:</strong> Ayşe Demir</p>
+                                
+                                <p className='mt-4 text-sm text-gray-600'>© 2025 ihtiyackredisi.com - Tüm hakları saklıdır. Sunulan bilgiler yatırım tavsiyesi niteliğinde olmayıp araştırmalar neticesinde editör ve yazarlarımız tarafından derlenip bilgi amaçlı sunulmaktadır.</p>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
+}
+
+export default Page

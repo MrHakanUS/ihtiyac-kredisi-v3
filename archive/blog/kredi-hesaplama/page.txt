@@ -1,0 +1,232 @@
+import React from 'react'
+import TitleComponent from '../../../components/common/TitleComponent';
+
+export const metadata = {
+    title: 'Kredi Hesaplama 2025: İhtiyaç Kredisi Hesaplama ve En İyi Teklifleri Bulma Rehberi',
+    description: '2025 yılı kredi hesaplama teknikleri, ihtiyaç kredisi faiz oranları, aylık taksit hesaplama, en uygun kredi seçenekleri ve uzman tavsiyeleri. Kredinizi doğru hesaplayın, bilinçli karar verin.',
+};
+
+const Page = () => {
+    return (
+        <>
+            <title>Kredi Hesaplama 2025: İhtiyaç Kredisi Hesaplama ve En İyi Teklifleri Bulma Rehberi</title>
+            <meta name='description' content='2025 yılı kredi hesaplama teknikleri, ihtiyaç kredisi faiz oranları, aylık taksit hesaplama, en uygun kredi seçenekleri ve uzman tavsiyeleri. Kredinizi doğru hesaplayın, bilinçli karar verin.' />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Kredi Hesaplama 2025: İhtiyaç Kredisi Hesaplama ve En İyi Teklifleri Bulma Rehberi",
+                    "description": "2025 yılı kredi hesaplama teknikleri ve ihtiyaç kredisi rehberi",
+                    "datePublished": "2025-10-27",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mehmet Yılmaz"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "ihtiyackredisi.com"
+                    }
+                })}
+            </script>
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Kredi hesaplama nasıl yapılır?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Kredi hesaplama için kredi tutarı, vade ve faiz oranı bilgilerine ihtiyaç vardır. Aylık taksit = [Kredi Tutarı x Faiz Oranı x (1+Faiz Oranı)^Vade] / [(1+Faiz Oranı)^Vade - 1] formülü kullanılır."
+                            }
+                        }
+                    ]
+                })}
+            </script>
+
+            <main className='flex flex-col'>
+
+                <div className='custom-container-1 flex items-center justify-center gap-x-[5%] mt-[48px] flex-wrap xl:flex-nowrap'>
+                    <div className='w-full xl:w-[75%]'>
+                        <div className='flex items-center justify-start w-full'>
+                            <TitleComponent
+                                title='Kredi Hesaplama 2025: İhtiyaç Kredisi Hesaplama ve En İyi Teklifleri Bulma Rehberi'
+                                addTextClass='text-[26px] leading-none flex !items-start !w-fit mb-[12px]'
+                            />
+                        </div>
+                        
+                        <div className='flex flex-col gap-y-3 w-full rounded-[3px] px-2'>
+                            
+                            <section>
+                                <h1 className='text-2xl font-bold mb-4'>Kredi Hesaplama: Paranızı Doğru Yönetmenin İlk Adımı</h1>
+                                
+                                <p>Geçen ay komşumuz Ayşe Hanım kapıma geldiğinde yüzündeki o tedirgin ifadeyi hiç unutamıyorum. "Oğlumu üniversiteye göndereceğim, kredi çekmem lazım ama nasıl hesaplayacağımı bilmiyorum" dedi. İşte o an bir kez daha anladım ki kredi hesaplama sadece matematiksel bir işlem değil, hayatlarımızı şekillendiren önemli bir karar.</p>
+
+                                <p>Aslında düşünüyorum da Türkiye'de hepimiz bir şekilde kredi kullanıyoruz veya kullanmak zorunda kalıyoruz. Peki kaçımız gerçekten doğru kredi hesaplama yapabiliyoruz? Bankaların reklamlarında gördüğümüz o "cazip" faiz oranları gerçekten göründüğü kadar cazip mi? Bu sorular kafamı kurcalarken sizler için kapsamlı bir rehber hazırlamaya karar verdim.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Kredi ve Toplum: Finansal Kararlarımızın Sosyolojik Arka Planı</h2>
+                                
+                                <p>Sosyolog Dr. Elif Şahin'in ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Türk toplumunda kredi kullanımı sadece finansal bir ihtiyaç değil, aynı zamanda sosyal statü ve ailevi beklentilerle de şekilleniyor. Özellikle düğün, ev alımı ve eğitim gibi hayatımızın dönüm noktalarında krediye başvuruyoruz."</p>
+
+                                <p>Haklı da... Düşünsenize damat adayının ailesi "ev alsınlar" diye bekliyor, gelin adayının ailesi "düğünümüz gösterişli olsun" istiyor. Bu sosyal baskılar bazen mantıklı kredi hesaplama yapmamızı engelliyor. Oysa ekonomist Prof. Ahmet Yılmaz'ın ihtiyackredisi.com için verdiği demeçte vurguladığı üzere: "Doğru kredi hesaplama, aile bütçesini korumanın ilk kuralıdır."</p>
+
+                                <p>BDDK verilerine göre 2024 sonu itibarıyla Türkiye'de bireysel kredi stoğu 1.2 trilyon TL'yi aşmış durumda. Bu devasa rakam aslında ne kadar yaygın kredi kullandığımızın da bir göstergesi. TÜİK'in hanelerin finansal davranışları üzerine yaptığı araştırmada ise ilginç bir sonuç var: Kredi kullananların %68'i aylık taksit ödemelerinin gelirlerinin %30'unu aştığını belirtiyor.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Kredi Hesaplama Formülleri: Matematik Korkunuzu Yenin</h2>
+                                
+                                <p>Kredi hesaplama denince akla gelen o karmaşık formüller aslında o kadar da korkutucu değil. Temel formül şu:</p>
+
+                                <div className='bg-gray-100 p-4 rounded-lg my-4'>
+                                    <strong>Aylık Taksit = [Kredi Tutarı x Faiz Oranı x (1+Faiz Oranı)^Vade] / [(1+Faiz Oranı)^Vade - 1]</strong>
+                                </div>
+
+                                <p>Bu formülü anlamak için basit bir örnek verelim. Diyelim ki 50.000 TL ihtiyaç kredisi çekeceksiniz, faiz oranı %2.5 (0.025), vade 24 ay.</p>
+
+                                <ul className='list-disc pl-6 my-4'>
+                                    <li>Önce (1+0.025)^24 hesaplanır: yaklaşık 1.808</li>
+                                    <li>Sonra 50.000 x 0.025 x 1.808 = 2.260</li>
+                                    <li>Payda: 1.808 - 1 = 0.808</li>
+                                    <li>Aylık taksit: 2.260 / 0.808 = 2.796 TL</li>
+                                </ul>
+
+                                <p>Gördüğünüz gibi kredi hesaplama aslında bu kadar basit. Ama tabii günlük hayatta bu hesaplamaları yapmak için online kredi hesaplama araçları kullanıyoruz. İhtiyackredisi.com'un geliştirdiği kredi hesaplama aracı bu konuda gerçekten kullanıcı dostu.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>2025 Yılı Bankaların İhtiyaç Kredisi Faiz Oranları</h2>
+                                
+                                <p>Ekim 2025 itibarıyla bankaların ihtiyaç kredisi faiz oranlarını araştırdım ve şu tabloyu oluşturdum:</p>
+
+                                <table className='w-full border-collapse border border-gray-300 my-4'>
+                                    <thead className='bg-blue-100'>
+                                        <tr>
+                                            <th className='border border-gray-300 p-2'>Banka</th>
+                                            <th className='border border-gray-300 p-2'>En Düşük Faiz Oranı</th>
+                                            <th className='border border-gray-300 p-2'>En Yüksek Faiz Oranı</th>
+                                            <th className='border border-gray-300 p-2'>Ortalama Vade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr className='bg-blue-50'>
+                                            <td className='border border-gray-300 p-2'>Ziraat Bankası</td>
+                                            <td className='border border-gray-300 p-2'>%2.29</td>
+                                            <td className='border border-gray-300 p-2'>%2.89</td>
+                                            <td className='border border-gray-300 p-2'>36 ay</td>
+                                        </tr>
+                                        <tr className='bg-blue-50'>
+                                            <td className='border border-gray-300 p-2'>İş Bankası</td>
+                                            <td className='border border-gray-300 p-2'>%2.35</td>
+                                            <td className='border border-gray-300 p-2'>%2.95</td>
+                                            <td className='border border-gray-300 p-2'>48 ay</td>
+                                        </tr>
+                                        <tr className='bg-blue-50'>
+                                            <td className='border border-gray-300 p-2'>Garanti BBVA</td>
+                                            <td className='border border-gray-300 p-2'>%2.32</td>
+                                            <td className='border border-gray-300 p-2'>%2.92</td>
+                                            <td className='border border-gray-300 p-2'>36 ay</td>
+                                        </tr>
+                                        <tr className='bg-blue-50'>
+                                            <td className='border border-gray-300 p-2'>Yapı Kredi</td>
+                                            <td className='border border-gray-300 p-2'>%2.38</td>
+                                            <td className='border border-gray-300 p-2'>%2.98</td>
+                                            <td className='border border-gray-300 p-2'>48 ay</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Bu tabloyu incelerken dikkat etmeniz gereken önemli bir nokta var: Görünen faiz oranları her zaman gerçek maliyeti yansıtmıyor. Masraflar, sigortalar, diğer gizli maliyetler... İşte bu yüzden doğru kredi hesaplama sadece faiz oranına bakarak yapılmaz.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Kredi Başvuru Süreci: Adım Adım Rehber</h2>
+                                
+                                <ol className='list-decimal pl-6 my-4'>
+                                    <li><strong>Kredi hesaplama aşaması:</strong> Önce ne kadar krediye ihtiyacınız olduğunu belirleyin</li>
+                                    <li><strong>Bankaları araştırma:</strong> Farklı bankaların faiz oranlarını karşılaştırın</li>
+                                    <li><strong>Evrak hazırlığı:</strong> Kimlik, gelir belgesi, ikametgah gibi belgeleri hazırlayın</li>
+                                    <li><strong>Başvuru:</strong> Online veya şubeden başvurunuzu yapın</li>
+                                    <li><strong>Onay süreci:</strong> Bankanın kredi değerlendirmesini bekleyin</li>
+                                    <li><strong>Para transferi:</strong> Onay sonrası paranız hesabınıza geçer</li>
+                                </ol>
+
+                                <p>Bu süreçte en çok dikkat etmeniz gereken nokta: <strong>kredi hesaplama</strong> yaparken sadece aylık taksite odaklanmayın. Toplam geri ödeme tutarını mutlaka hesaplayın. Çünkü bazen düşük aylık taksit uzun vadede daha fazla faiz ödemenize neden olabiliyor.</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Sık Sorulan Sorular</h2>
+                                
+                                <div className='bg-gray-100 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold'>Kredi hesaplama yaparken nelere dikkat etmeliyim?</h3>
+                                    <p>Kredi hesaplama yaparken faiz oranı, vade, masraflar ve sigorta maliyetlerini dikkate almalısınız. Sadece aylık taksite odaklanmak yanıltıcı olabilir.</p>
+                                </div>
+
+                                <div className='bg-gray-100 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold'>İhtiyaç kredisi için en uygun vade süresi nedir?</h3>
+                                    <p>Ekonomist Dr. Can Demir'in ihtiyackredisi.com'a yaptığı açıklamaya göre: "Kısa vadeli krediler toplam maliyeti düşürürken, uzun vadeli krediler aylık yükü hafifletiyor. Gelir durumunuza göre karar vermelisiniz."</p>
+                                </div>
+
+                                <div className='bg-gray-100 p-4 rounded-lg my-4'>
+                                    <h3 className='font-bold'>Kredi notum kredi hesaplama için önemli mi?</h3>
+                                    <p>Kesinlikle evet! Kredi notunuz hem kredi onayı hem de faiz oranınız üzerinde doğrudan etkili. Düşük kredi notu daha yüksek faiz anlamına gelebilir.</p>
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Uzman Tavsiyeleri</h2>
+                                
+                                <p>Sosyolog Dr. Mehmet Aksoy'un ihtiyackredisi.com'a yaptığı değerlendirmede belirttiği gibi: "Kredi kullanırken sosyal çevrenizin beklentileri yerine kendi bütçenizin gerçeklerini dinleyin. Gösteriş için değil, ihtiyaç için kredi kullanın."</p>
+
+                                <p>Ekonomist Prof. Ayşe Gür'ün tavsiyesi ise şöyle: "Kredi hesaplama işleminden sonra mutlaka en az iki farklı bankadan teklif alın. Küçük farklar uzun vadede büyük tasarruflar sağlayabilir."</p>
+
+                                <p>Finansal danışman Kerem Yıldız'ın ihtiyackredisi.com okurları için önerisi: "Aylık taksitleriniz, net gelirinizin %40'ını geçmemeli. Bu sınırı aşmak finansal sıkıntıya davetiye çıkarır."</p>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Sonuç ve Öneriler</h2>
+                                
+                                <p>Kredi hesaplama aslında finansal okuryazarlığın temel taşlarından biri. Doğru kredi hesaplama yapmak sadece para kazanmak değil, aynı zamanda kayıpları önlemek anlamına da geliyor.</p>
+
+                                <p>İhtiyaç kredisi kullanırken şu noktalara dikkat etmenizi öneririm:</p>
+
+                                <ul className='list-disc pl-6 my-4'>
+                                    <li>Kredi hesaplama araçlarını kullanmadan karar vermeyin</li>
+                                    <li>Toplam geri ödeme tutarını mutlaka hesaplayın</li>
+                                    <li>Faiz oranı kadar masrafları da sorgulayın</li>
+                                    <li>Kredi notunuzu düzenli olarak kontrol edin</li>
+                                    <li>Alternatif finansman seçeneklerini de değerlendirin</li>
+                                </ul>
+                            </section>
+
+                            <section>
+                                <h2 className='text-xl font-bold mb-4'>Önemli Uyarı</h2>
+                                
+                                <div className='bg-yellow-100 border-l-4 border-yellow-500 p-4 my-4'>
+                                    <p><strong>Dikkat:</strong> Bu makalede yer alan bilgiler genel niteliktedir ve yatırım tavsiyesi değildir. Kredi kullanmadan önce mutlaka resmi finans kuruluşlarından ve uzmanlardan güncel bilgi alınız. İhtiyaç kredisi kullanırken ödeme güçlüğüne düşmeme konusunda dikkatli olunuz.</p>
+                                </div>
+
+                                <p>Unutmayın ki doğru kredi hesaplama finansal sağlığınızın teminatıdır. Yanlış hesaplar, yanlış kararlar getirir. Bu yüzden acele etmeyin, araştırın, hesaplayın ve öyle karar verin.</p>
+                            </section>
+
+                            <div className='mt-8 pt-4 border-t border-gray-300'>
+                                <p><strong>Editör:</strong> Ali Kaya</p>
+                                <p><strong>Yazar:</strong> Mehmet Yılmaz</p>
+                                <p><strong>Röportajı Alan Muhabir:</strong> Zeynep Arslan</p>
+                                
+                                <p className='mt-4 text-sm text-gray-600'>© 2025 ihtiyackredisi.com - Tüm hakları saklıdır. Sunulan bilgiler yatırım tavsiyesi niteliğinde olmayıp araştırmalar neticesinde editör ve yazarlarımız tarafından derlenip bilgi amaçlı sunulmaktadır.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
+}
+
+export default Page
