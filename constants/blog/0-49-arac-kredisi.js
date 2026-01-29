@@ -107,8 +107,6 @@ export const blog_0_49_arac_kredisi = {
         'Alternatif banka tekliflerini mutlaka karşılaştırın',
     ]},
     { type: 'paragraph', text: 'ihtiyackredisi.com üzerinden güncel 0.49 araç kredisi kampanyalarını takip edebilir, kredi hesaplama araçlarını kullanarak farklı senaryoları test edebilir ve en uygun teklifi bulabilirsiniz.' },
-    // Link örneği - Ayrı bir link bloğu (yorumu kaldırıp kullanabilirsiniz)
-     { type: 'link', text: 'Araç kredisi hesaplama sayfasına git', href: '/hesaplama/arac-kredisi' },
     { type: 'heading', level: 2, text: 'Önemli Uyarı' },
     { type: 'paragraph', text: 'Bu içerikte yer alan bilgiler genel niteliktedir ve kişisel finansal duruma özel tavsiye niteliği taşımamaktadır. Kredi başvurusunda bulunmadan önce ilgili bankadan güncel kampanya koşullarını teyit etmeniz önerilir. Faiz oranları ve kampanya koşulları bankalar tarafından önceden haber verilmeksizin değiştirilebilir.' },
     { type: 'paragraph', text: 'Editör: Ayşe Kaya' },

@@ -307,9 +307,11 @@ function main() {
       const res = convertOne(slug, { skipExisting: newOnlyFlag })
       results.push(res)
       if (res.removed) {
-        // eslint-disable-next-line no-console 
+        // eslint-disable-next-line no-console
+        console.log(`✓ [converted] ${slug}`)
       } else if (res.skipped && res.reason !== 'already exists') {
-        // eslint-disable-next-line no-console 
+        // eslint-disable-next-line no-console
+        console.log(`⊘ [skipped] ${slug} - ${res.reason}`)
       }
     } catch (err) {
       // eslint-disable-next-line no-console
@@ -321,8 +323,15 @@ function main() {
   const skipped = results.filter(r => r.skipped).length
   const alreadyExists = results.filter(r => r.skipped && r.reason === 'already exists').length
    
+  // eslint-disable-next-line no-console
+  console.log(`\n📊 Özet:`)
+  // eslint-disable-next-line no-console
+  console.log(`   ✓ Dönüştürülen: ${converted}`)
+  // eslint-disable-next-line no-console
+  console.log(`   ⊘ Atlanan: ${skipped}`)
   if (alreadyExists > 0) {
-    // eslint-disable-next-line no-console 
+    // eslint-disable-next-line no-console
+    console.log(`   ⊘ Zaten mevcut: ${alreadyExists}`)
   }
 }
 
