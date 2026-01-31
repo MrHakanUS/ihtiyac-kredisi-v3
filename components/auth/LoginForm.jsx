@@ -11,6 +11,7 @@ import toast from 'react-hot-toast';
 import Link from 'next/link';
 import { FiPhone } from 'react-icons/fi';
 import { FiEye, FiEyeOff } from 'react-icons/fi';
+import { FiUserPlus } from 'react-icons/fi';
 import { login } from '@/app/api/web/services';
 
 export default function LoginForm() {
@@ -126,7 +127,7 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="flex flex-col gap-8 md:gap-[48px] items-start w-full px-4 md:px-10 py-8 md:py-0">
+    <div className="flex flex-col gap-2 items-start w-full px-4 md:px-10 py-8 md:py-0">
       {/* Slogan - Top Section */}
       <div className="w-full flex flex-col gap-2 items-center mb-2">
         <div className="relative flex items-center gap-2">
@@ -317,10 +318,10 @@ export default function LoginForm() {
           </span>
           <Link
             href="/uye-ol"
-            className="font-['DM_Sans',sans-serif] font-semibold text-[color:var(--primary,#ff6900)] hover:text-[#e55a00] transition-colors relative"
+            className="group flex items-center gap-1.5 font-['DM_Sans',sans-serif] font-bold text-[15px] text-[color:var(--primary,#ff6900)] hover:text-[#e55a00] transition-colors border-b border-[color:var(--primary,#ff6900)] pb-[5px]"
           >
-            Hesap Oluşturun
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[var(--primary,#ff6900)] transition-all duration-300 hover:w-full"></span>
+            <FiUserPlus className="text-[16px] transition-transform duration-300 group-hover:scale-110" />
+            <span>Hesap Oluşturun</span>
           </Link>
         </div>
       </form>

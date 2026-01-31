@@ -41,7 +41,7 @@ export default function AuthButton() {
                     <div className='h-5 w-5 bg-slate-300 rounded'></div>
                 </div>
                 {/* Mobile skeleton */}
-                <div className='md:hidden shrink-0 h-[44px] w-[140px] bg-slate-100/50 rounded-[12px] animate-pulse'></div>
+                <div className='md:hidden shrink-0 h-[36px] w-[36px] rounded-full bg-primary/50 animate-pulse'></div>
             </>
         );
     }
@@ -64,14 +64,15 @@ export default function AuthButton() {
 
     if (session) {
         return (
-            <div className='hidden md:block shrink-0 relative' ref={dropdownRef}>
+            <div className='shrink-0 relative' ref={dropdownRef}>
+                {/* Desktop version */}
                 <button
                     onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
                         setIsDropdownOpen(!isDropdownOpen);
                     }}
-                    className='flex items-center gap-2.5 px-2.5 py-1.5 rounded-[10px] bg-slate-100/50 hover:bg-slate-100 transition-all duration-200 border border-transparent hover:border-slate-200/50'
+                    className='hidden md:flex items-center gap-2.5 px-2.5 py-1.5 rounded-[10px] bg-slate-100/50 hover:bg-slate-100 transition-all duration-200 border border-transparent hover:border-slate-200/50'
                 >
                     <span className='flex h-[36px] w-[36px] items-center justify-center rounded-full bg-primary/90 text-white font-semibold text-[14px] leading-none'>
                         {userInitials}
@@ -83,9 +84,19 @@ export default function AuthButton() {
                     />
                 </button>
 
-                {/* Dropdown Menu */}
+                {/* Mobile version - just avatar button */}
+                <Link
+                    href='/hesabim'
+                    className='md:hidden flex items-center justify-center shrink-0'
+                >
+                    <span className='flex h-[36px] w-[36px] items-center justify-center rounded-full bg-primary/90 text-white font-semibold text-[14px] leading-none'>
+                        {userInitials}
+                    </span>
+                </Link>
+
+                {/* Dropdown Menu - Desktop only */}
                 {isDropdownOpen && (
-                    <div className='absolute right-0 top-full mt-2 w-56 bg-white rounded-[12px] shadow-xl border border-slate-200 overflow-hidden z-50'>
+                    <div className='hidden md:block absolute right-0 top-full mt-2 w-56 bg-white rounded-[12px] shadow-xl border border-slate-200 overflow-hidden z-50'>
                         <Link 
                             href='/hesabim'
                             onClick={() => setIsDropdownOpen(false)}
@@ -120,8 +131,19 @@ export default function AuthButton() {
     }
 
     return (
-        <Link href='/giris-yap' className='hidden md:block shrink-0'>
-            <FeaturedButtonComponent icon={<TbLogin />} text='Giriş / Üyelik' />
-        </Link>
+        <>
+            {/* Desktop version */}
+            <Link href='/giris-yap' className='hidden md:block shrink-0'>
+                <FeaturedButtonComponent icon={<TbLogin />} text='Giriş / Üyelik' />
+            </Link>
+            {/* Mobile version - icon only */}
+            <Link 
+                href='/giris-yap' 
+                className='md:hidden shrink-0 flex items-center justify-center h-[36px] w-[36px] rounded-full bg-primary text-white hover:brightness-125 transition-all duration-200 border border-transparent'
+                aria-label='Giriş Yap'
+            >
+                <FiUser className='text-[20px]' />
+            </Link>
+        </>
     );
 }

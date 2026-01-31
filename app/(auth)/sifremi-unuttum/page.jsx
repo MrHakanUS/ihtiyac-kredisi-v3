@@ -12,7 +12,7 @@ export default function SifremiUnuttumPage() {
   return (
     <div className="relative w-full min-h-[calc(100vh-128px)] overflow-hidden">
       {/* Main Content */}
-      <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-128px)] py-12 lg:py-[64px] px-4 lg:px-[120px]" style={{ paddingBottom: '0' }}>
+      <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-128px)] py-4 px-4" style={{ paddingBottom: '0' }}>
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-[80px] items-start justify-center max-w-[1280px] w-full">
           {/* Left Side - Advertisement Area */}
           <div className="hidden lg:flex flex-col gap-4 items-center justify-center bg-[var(--slate-200,#e2e8f0)] rounded-[32px] w-[560px] h-[588px] shrink-0">
@@ -26,7 +26,7 @@ export default function SifremiUnuttumPage() {
 
           {/* Right Side - Form */}
           <div className="w-full lg:max-w-[560px] lg:w-full">
-            <div className="flex flex-col gap-8 md:gap-[48px] items-start w-full px-4 md:px-10 py-8 md:py-0">
+            <div className="flex flex-col gap-2 items-start w-full px-4 md:px-10 py-8 md:py-0">
               {/* Breadcrumb & Header */}
               <div className="flex flex-col gap-4 md:gap-5 items-start text-center w-full">
                 <div className="flex gap-1 md:gap-[4px] items-center text-[13px] md:text-[14px]">

@@ -385,16 +385,16 @@ const CookieConsentComponent = () => {
           </div>
           <div className='grid grid-cols-2 gap-3'>
             <button
-              onClick={handleAcceptAll}
-              className='px-3 h-9 rounded-lg bg-primary text-white text-[13px] hover:brightness-95 transition-colors cursor-pointer'
-            >
-              Kabul Et
-            </button>
-            <button
               onClick={showPreferences}
               className='px-3 h-9 rounded-lg border border-slate-300 text-[13px] text-slate-700 hover:bg-slate-100 transition-colors cursor-pointer'
             >
               Tercihleri Yönet
+            </button>
+            <button
+              onClick={handleAcceptAll}
+              className='px-3 h-9 rounded-lg bg-primary text-white text-[13px] hover:brightness-95 transition-colors cursor-pointer'
+            >
+              Kabul Et
             </button>
           </div>
         </div>

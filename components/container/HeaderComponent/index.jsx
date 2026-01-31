@@ -135,49 +135,37 @@ const HeaderComponent = () => {
                 );
               })}
             </ul>
-            {!isSessionLoading && (
+            {!isSessionLoading && session && (
               <div className='pt-3 flex flex-col gap-2 items-stretch sm:hidden px-4'>
-                {session ? (
-                <>
-                  <Link href='/hesabim' onClick={() => setIsOpen(false)} className='flex items-center gap-3 px-4 py-2.5 rounded-[10px] bg-slate-100/50 hover:bg-slate-100 text-slate-900 font-medium text-[14px] transition-all w-full border border-transparent hover:border-slate-200/50'>
-                    <span className='flex h-[36px] w-[36px] items-center justify-center rounded-full bg-primary/90 text-white font-semibold text-[14px] leading-none'>
-                      {(() => {
-                        const firstName = session?.user?.firstName || '';
-                        const lastName = session?.user?.lastName || '';
-                        const firstInitial = firstName.charAt(0).toUpperCase() || '';
-                        const lastInitial = lastName.charAt(0).toUpperCase() || '';
-                        return (firstInitial + lastInitial) || 'U';
-                      })()}
+                <Link href='/hesabim' onClick={() => setIsOpen(false)} className='flex items-center gap-3 px-4 py-2.5 rounded-[10px] bg-slate-100/50 hover:bg-slate-100 text-slate-900 font-medium text-[14px] transition-all w-full border border-transparent hover:border-slate-200/50'>
+                  <span className='flex h-[36px] w-[36px] items-center justify-center rounded-full bg-primary/90 text-white font-semibold text-[14px] leading-none'>
+                    {(() => {
+                      const firstName = session?.user?.firstName || '';
+                      const lastName = session?.user?.lastName || '';
+                      const firstInitial = firstName.charAt(0).toUpperCase() || '';
+                      const lastInitial = lastName.charAt(0).toUpperCase() || '';
+                      return (firstInitial + lastInitial) || 'U';
+                    })()}
+                  </span>
+                  <div className='flex flex-col items-start flex-1 min-w-0'>
+                    <span className='font-semibold text-slate-900'>
+                      {session?.user?.firstName && session?.user?.lastName 
+                        ? `${session.user.firstName} ${session.user.lastName}`
+                        : 'Hesabım'}
                     </span>
-                    <div className='flex flex-col items-start flex-1 min-w-0'>
-                      <span className='font-semibold text-slate-900'>
-                        {session?.user?.firstName && session?.user?.lastName 
-                          ? `${session.user.firstName} ${session.user.lastName}`
-                          : 'Hesabım'}
-                      </span>
-                      <span className='text-[12px] text-slate-500'>Hesabı görüntüle</span>
-                    </div>
-                  </Link>
-                  <button
-                    onClick={() => {
-                      logout();
-                      setIsOpen(false);
-                    }}
-                    className='flex items-center gap-2 px-4 py-2 rounded-[12px] bg-slate-200/50 hover:bg-slate-200 text-slate-700 font-medium text-[14px] transition-colors w-full justify-center'
-                  >
-                    <FiLogOut className='text-[18px]' />
-                    <span>Çıkış Yap</span>
-                  </button>
-                </>
-              ) : (
-                <Link href='/giris-yap' onClick={() => setIsOpen(false)} className='block'>
-                  <FeaturedButtonComponent
-                    icon={<TbLogin />}
-                    text='Giriş / Üyelik'
-                    addClass='w-full justify-center'
-                  />
+                    <span className='text-[12px] text-slate-500'>Hesabı görüntüle</span>
+                  </div>
                 </Link>
-                )}
+                <button
+                  onClick={() => {
+                    logout();
+                    setIsOpen(false);
+                  }}
+                  className='flex items-center gap-2 px-4 py-2 rounded-[12px] bg-slate-200/50 hover:bg-slate-200 text-slate-700 font-medium text-[14px] transition-colors w-full justify-center'
+                >
+                  <FiLogOut className='text-[18px]' />
+                  <span>Çıkış Yap</span>
+                </button>
               </div>
             )}
           </div>
